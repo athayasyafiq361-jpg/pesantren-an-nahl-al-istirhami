@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Pesantren An Nahl Al Istirhami</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background-color: #f5f7f6;
+            line-height: 1.7;
+        }
+        header {
+            background-color: #0f6b4a;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+        nav {
+            background-color: #0b5239;
+            padding: 12px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: 600;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            max-width: 1000px;
+            margin: auto;
+            background: white;
+            padding: 25px;
+            margin-top: 20px;
+            border-radius: 6px;
+        }
+        h2 {
+            color: #0f6b4a;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        footer {
+            background-color: #0f6b4a;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #0f6b4a;
+            color: white;
+            padding: 10px 18px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+        .btn:hover {
+            background-color: #0b5239;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Pesantren An Nahl Al Istirhami</h1>
+    <p>Membina Generasi Qurani, Berilmu dan Berakhlakul Karimah</p>
+</header>
+
+<nav>
+    <a href="#beranda">Beranda</a>
+    <a href="#profil">Profil</a>
+    <a href="#program">Program</a>
+    <a href="#pendaftaran">Pendaftaran</a>
+    <a href="#kontak">Kontak</a>
+</nav>
+
+<section id="beranda">
+    <h2>Selamat Datang</h2>
+    <p>
+        Website resmi <strong>Pesantren An Nahl Al Istirhami</strong>.
+        Pesantren kami berkomitmen mendidik santri dengan pendidikan
+        Al-Qur’an, ilmu agama, serta pembinaan akhlak.
+    </p>
+</section>
+
+<section id="profil">
+    <h2>Profil Pesantren</h2>
+    <p>
+        Pesantren An Nahl Al Istirhami adalah lembaga pendidikan Islam
+        yang fokus pada pembinaan keilmuan, spiritual, dan karakter santri
+        berdasarkan Al-Qur’an dan As-Sunnah.
+    </p>
+</section>
+
+<section id="program">
+    <h2>Program Pendidikan</h2>
+    <ul>
+        <li>Tahfidz dan Tahsin Al-Qur’an</li>
+        <li>Madrasah Diniyah</li>
+        <li>Pembelajaran Kitab Kuning</li>
+        <li>Pembinaan Akhlak dan Ibadah</li>
+    </ul>
+</section>
+
+<section id="pendaftaran">
+    <h2>Pendaftaran Santri Baru</h2>
+    <p>
+        Pendaftaran santri baru dibuka setiap tahun ajaran.
+        Silakan hubungi kami untuk informasi lebih lanjut.
+    </p>
+    <a href="#kontak" class="btn">Hubungi Kami</a>
+</section>
+
+<section id="kontak">
+    <h2>Kontak Pesantren</h2>
+    <p>
+        Alamat: (isi alamat pesantren)<br>
+        Telepon / WhatsApp: 08xxxxxxxxxx<br>
+        Email: annahl@example.com
+    </p>
+</section>
+
+<footer>
+    <p>&copy; 2026 Pesantren An Nahl Al Istirhami</p>
+</footer>
+
+</body>
+</html>
